@@ -3,6 +3,8 @@
 import tensorflow as tf
 import numpy as np
 
+
+
 uid_to_human = {}
 for line in tf.gfile.GFile('imagenet_synset_to_human_label_map.txt').readlines():
     items = line.strip().split('\t')
